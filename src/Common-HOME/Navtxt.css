@@ -1,0 +1,21 @@
+@font-face {
+    font-family:QuickSand;
+    src: url(../Assets/Quicksand-VariableFont_wght.ttf);
+}
+
+
+.NavTxtStyle{color: white;
+font-size: 16px;
+font-weight: 300;
+font-family: QuickSand;
+transition: 0.2s ease-in-out;
+opacity: 0.6;
+padding: 8px;
+cursor: pointer;}
+
+
+.NavTxtStyle:hover{color: white;
+font-weight: 400;
+transform: translateY(-0.15rem);
+opacity: 1;
+;}

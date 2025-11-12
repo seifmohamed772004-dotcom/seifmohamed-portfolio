@@ -1,0 +1,39 @@
+.BorderButton{width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fefeff;
+font-family: QuickSand;
+font-size: 16px;
+border: 1px solid white;
+gap: .5rem;
+font-weight: 500;
+background-color:#96332100;
+border-radius: 24px;
+padding: 12px 32px;
+transition: 0.2s ease-in-out;}
+
+
+.BorderButton:active{width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: .5rem;
+color: #fefeff;
+font-family: QuickSand;
+font-size: 16px;
+border: 1px solid rgba(255, 255, 255, 0);
+background-color: #963321;
+font-weight: 500;
+border-radius: 24px;
+padding: 12px 32px;
+transition: 0.05s ease-in-out;}
+
+
+
+
+
+@font-face {
+    font-family:QuickSand;
+    src: url(../Assets/Quicksand-VariableFont_wght.ttf);
+}

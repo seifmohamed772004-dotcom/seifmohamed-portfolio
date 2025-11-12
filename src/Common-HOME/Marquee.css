@@ -1,0 +1,48 @@
+@font-face {
+  font-family: StretchPro;
+  src: url(../Assets/StretchPro.otf);
+}
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+  background-color: #fefefe;
+  font-family: StretchPro, sans-serif;
+  color: #cc522d;
+  padding: 24px; /* unified padding */
+  box-sizing: border-box;
+}
+
+.marquee-track {
+  display: inline-flex;
+  gap: 60px; /* space between items */
+  white-space: nowrap;
+  animation: marquee 20s linear infinite; /* constant speed */
+  will-change: transform;
+}
+
+.marquee-item h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 0 24px; /* spacing inside each item */
+  box-sizing: border-box;
+}
+
+/* Continuous scroll keyframes */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Accessibility: reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+    transform: none;
+  }
+}

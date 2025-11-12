@@ -1,0 +1,35 @@
+.NavMainSec{width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px 48px;
+box-sizing: border-box;
+border-bottom: 1px solid white;
+position: fixed;
+backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);}
+
+
+.NavInnerSec{width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px 48px;
+box-sizing: border-box;
+    border: 1px solid white;
+border-radius: 100px;}
+
+.NavItems{width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.NavIconsHolding{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+}

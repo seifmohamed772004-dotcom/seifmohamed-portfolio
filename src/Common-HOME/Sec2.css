@@ -1,0 +1,48 @@
+@font-face {
+    font-family:StretchPro;
+    src: url(../Assets/StretchPro.otf);
+}
+
+
+
+.Sec2Main{width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding: 80px;
+box-sizing: border-box;
+}
+
+.Sec2Left{width: 40%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 4rem;}
+
+.Sec2LeftTop{width: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 1rem;}
+
+
+.Sec2Title{font-size: 40px;
+font-weight: 400;
+font-family: QuickSand;
+color: white;
+margin: 0;
+padding: 0;}
+
+.Sec2Desc{font-size: 16px;
+font-weight: 400;
+width: 70%;
+color: white;
+font-family: QuickSand;
+margin: 0;
+padding: 0;}
+
+.ShowreelVideo{width: 60%;
+border-radius: 16px;
+border: 1px solid white;}

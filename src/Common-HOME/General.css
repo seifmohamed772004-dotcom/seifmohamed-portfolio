@@ -1,0 +1,74 @@
+:root{
+    --BG: #101010;
+    --secBG: #2A2A2A;
+    --txt: #FFF0ED;
+    --acc1: #FF6A4E;
+    --acc2: #242834;
+    --error: #FF3F3F;
+    --success: #89FF4E;
+   
+
+
+
+--enF16: 1rem;
+--enF24: 1.5rem;
+--enF32: 2rem;
+--enF40: 2.5rem;
+--enF48: 3rem;
+--enF64: 4rem;
+--enF80: 5rem;
+--enF96: 6rem;
+
+
+
+
+--fwlight: 300;
+--fwreg: 400;
+--fwmedium: 500;
+--fwsemibold: 600;
+--fwbold: 700;
+
+}
+
+
+
+body{width: 100%;
+background-color: #191919;
+margin: 0;
+padding: 0;}
+
+h1{margin: 0;
+padding: 0;}
+
+h2{margin: 0;
+padding: 0;}
+
+h3{margin: 0;
+padding: 0;}
+
+p{margin: 0;
+padding: 0;}
+
+ul{list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2rem;}
+
+li{margin: 0;
+padding: 0;}
+
+@font-face {
+    font-family:QuickSand;
+    src: url(../Assets/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:StretchPro;
+    src: url(../Assets/StretchPro.otf);
+}
+
+@font-face {
+    font-family:Rensafi;
+    src: url(../Assets/Renasfi-Demo-BF68d8f58fbb6e6.otf);
+}
