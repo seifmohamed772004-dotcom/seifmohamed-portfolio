@@ -1,0 +1,51 @@
+@font-face {
+    font-family:QuickSand;
+    src: url(../Assets/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:StretchPro;
+    src: url(../Assets/StretchPro.otf);
+}
+
+@font-face {
+    font-family:Rensafi;
+    src: url(../Assets/Renasfi-Demo-BF68d8f58fbb6e6.otf);
+}
+
+.Sec4Main{width: 100%;
+display: flex;
+background-color: #101010;
+flex-direction: column;
+padding: 80px;
+box-sizing: border-box;
+justify-content: flex-start;
+align-items: center;}
+
+.Sec4Bottom {
+    width: 100%;
+    display: flex;
+    padding: 80px 0px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Sec4BottomLeft{width: 40%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+padding: 80px 0;
+gap: 2.5rem;
+flex-direction: column;}
+
+.Sec4BottomLeftTitle{font-size: 32px;
+font-family: Rensafi;
+font-weight: 400;
+color: white;
+line-height: 1;}
+
+.Sec4BottomLeftdesc{font-size: 24px;
+font-family: QuickSand;
+font-weight: 300;
+color: white;}
+
