@@ -5,6 +5,7 @@ import GD3 from '../Assets/Graphic Design IMG 3.png'
 import GD4 from '../Assets/Graphic Design IMG 4.png'
 import CategoryBox from '../Common-HOME/Sec6CategoryBoxProps'
 import Categoryspace from '../Common-Category/CategoryBox2'
+import { Link } from 'react-router-dom';
 import './Sec1Cat.css'
 
 const Sec1Cat = () => {
@@ -48,7 +49,7 @@ const Sec1Cat = () => {
 <section className='Sec1MainRight'>
 
 <section className='Sec1MainRightleft'>
-<img className='categoryimg' src={GD1}/>
+<Link to="/individual" className='textdec'><img className='categoryimg' src={GD1}/></Link>
 <img className='categoryimg' src={GD2}/>
 </section>
 

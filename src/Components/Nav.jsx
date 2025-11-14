@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navtxt from '../Common-HOME/NavTxt';
+import { Link } from 'react-router-dom';
 import Logo from '../Assets/Navlogo.svg'
 import './Nav.css'
 import '../Common-HOME/General.css'
@@ -15,7 +16,7 @@ const nav = () => {
 
 <section className='NavInnerSec'>
 
-<img src={Logo} alt='Logo'/>
+<Link to="/" className='textdec'><img src={Logo} alt='Logo'/></Link>
 
 
 <section className='NavItems'>
