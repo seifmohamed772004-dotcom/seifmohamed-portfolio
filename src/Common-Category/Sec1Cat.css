@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family:QuickSand;
+    src: url(../Assets/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:StretchPro;
+    src: url(../Assets/StretchPro.otf);
+}
+
+@font-face {
+    font-family:Rensafi;
+    src: url(../Assets/Renasfi-Demo-BF68d8f58fbb6e6.otf);
+}
+
+.Sec1Main{width: 100%;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+padding: 200px 80px 80px 80px;
+height: 100vh;
+box-sizing: border-box;
+background-image: url(../Assets/Sec1\ BG.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;}
+
+
+.Sec1MainLeft{width: 40%;
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: space-between;
+align-items: flex-start;}
+
+.Sec1MainLeftTop{width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 1rem;}
+
+.Sec1MainLeftBottom{width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 1rem;}
+
+.RecFieldsButtons{
+    width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+.RecFieldsButtonsTop{ width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;}
+
+.Sec1MainRight{width: 50%;
+display: flex;
+justify-content: space-between;
+gap: 1.25rem;
+align-items: center;}
+
+.Sec1MainRightleft{width: 50%;
+display: flex;
+justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+align-items: center;}
+
+.Sec1MainRightright{width: 50%;
+display: flex;
+justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+align-items: center;}
+
+.categoryimg{width: 100%;
+border-radius: 12px;}
+
+.OFW{font-size: 16px;
+font-weight: 400;
+color: white;
+font-family: QuickSand;}
+
+.Sec1LowerRight{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: .5rem;}
+
+.Sec1LowerRightDot{width: 8px;
+height: 8px;
+border-radius: 24px;
+background-color: rgb(15, 232, 15);}
+
+.RFtxt{font-size: 20px;
+color: #fefefe;
+font-family: Quicksand;
+text-align: left;
+font-weight: 300;}
+
+.topboxes{width: 50%;}

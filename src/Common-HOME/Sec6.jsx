@@ -2,6 +2,7 @@ import React from 'react';
 import TopTitleComp from './TopTitleProps'
 import CategoryBox from './Sec6CategoryBoxProps'
 import './Sec6.css'
+import { Link } from 'react-router-dom';
 const Sec6Home = () => {
     return ( <>
 
@@ -20,7 +21,7 @@ const Sec6Home = () => {
         <CategoryBox title="BRANDING" projects="4 Projects" widthClass="width-medium" />
       </div>
       <div className="sec6-row">
-        <CategoryBox title="GRAPHIC DESIGN" projects="4 Projects" widthClass="width-medium" />
+       <Link to="/category" className='textdec'><CategoryBox title="GRAPHIC DESIGN" projects="4 Projects" widthClass="width-medium" /></Link>
         <CategoryBox title="XR DESIGN" projects="4 Projects" widthClass="width-medium" />
         <CategoryBox title="PHOTO EDITING" projects="4 Projects" widthClass="width-large" />
       </div>
