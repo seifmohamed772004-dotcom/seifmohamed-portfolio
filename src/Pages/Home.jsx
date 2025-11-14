@@ -6,6 +6,8 @@ import StaticPropsMarquee from '../Common-HOME/Marquee.jsx'
 import Sec2Home from '../Common-HOME/Sec2.jsx'
 import Sec4Home from '../Common-HOME/Sec4.jsx'
 import Sec5Home from '../Common-HOME/Sec5.jsx'
+import Sec6Home from '../Common-HOME/Sec6.jsx'
+import Footer from '../Components/Footer.jsx';
 
 
 
@@ -19,6 +21,8 @@ const Home = () => {
       {/* Sec 3 Lesa mat3amaletsh dy btaaet el featured project fa e3melha w add makan el comment */}
       <Sec4Home/>
       <Sec5Home/>
+      <Sec6Home/>
+      <Footer/>
     </>
   );
 };

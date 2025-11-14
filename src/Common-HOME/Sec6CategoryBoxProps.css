@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family:QuickSand;
+    src: url(../Assets/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:StretchPro;
+    src: url(../Assets/StretchPro.otf);
+}
+
+@font-face {
+    font-family:Rensafi;
+    src: url(../Assets/Renasfi-Demo-BF68d8f58fbb6e6.otf);
+}
+
+
+.category-box {
+    background-color: #101010;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 64px;
+    color: #ffffff;
+    flex-wrap: wrap;
+    display: flex;
+    border: 1px solid var(--Color-Text, #FFF0ED);
+    gap: 12px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-content: center;
+    transition: 0.2s ease-in-out;
+}
+
+.category-box:hover{
+    background-color: #1a1a1a;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 64px;
+    color: #ffffff;
+    scale: 1.01;
+    flex-wrap: wrap;
+    display: flex;
+    border: 1px solid var(--Color-Text, #FFF0ED);
+    gap: 12px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+
+
+
+.category-box h3 {
+  margin: 0;
+  font-size: 24px;
+  font-family: StretchPro;
+  font-weight: normal;
+  text-align: center;
+  width: max-content;
+}
+
+.category-box p {
+    font-size: 16px;
+    text-align: center;
+    font-family: QuickSand;
+    color: #6cff8a;
+}
