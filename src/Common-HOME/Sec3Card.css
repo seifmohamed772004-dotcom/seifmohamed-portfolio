@@ -1,0 +1,111 @@
+@font-face {
+    font-family:QuickSand;
+    src: url(../Assets/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:StretchPro;
+    src: url(../Assets/StretchPro.otf);
+}
+
+@font-face {
+    font-family:Rensafi;
+    src: url(../Assets/Renasfi-Demo-BF68d8f58fbb6e6.otf);
+}
+
+
+.sec3-card {
+    width: 100%;
+    height: 500px;
+    background-color: #2b2b2b;
+    border: 1px solid #555;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.sec3-card:hover {
+    transform: translateY(-5px);
+    border-color: #fff;
+}
+
+.sec3-card-img-container {
+    height: 60%;
+    width: 100%;
+    background-color: #1a1a1a;
+    overflow: hidden;
+}
+
+.sec3-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.sec3-card-content {
+    height: 40%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #2b2b2b, #222);
+}
+
+.sec3-card-title {
+    font-size: 2.2rem;
+    margin: 0;
+    font-family: Rensafi;
+    color: #fefefe;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.sec3-card-subtitle {
+    font-size: 1rem;
+    width: max-content;
+    font-family: QuickSand;
+    color: #fefefe;
+    font-weight: 300;
+}
+
+.sec3-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sec3-card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sec3-meta-label {
+    font-size: 0.75rem;
+    color: #fefefe;
+    opacity: 0.6;
+        font-family: QuickSand;
+    letter-spacing: 0.5px;
+}
+
+.sec3-card-btn {
+    background-color: #fefefe;
+    color: #101010;
+    padding: 10px 20px;
+         font-family: QuickSand;
+         font-size: 16px;
+         font-weight: 600;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.sec3-card-btn:hover {
+    background-color: #FF6A4E;
+    color: #fefefe;
+}
