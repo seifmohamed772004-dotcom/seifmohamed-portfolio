@@ -9,12 +9,14 @@ import Sec5Home from '../Common-HOME/Sec5.jsx'
 import Sec6Home from '../Common-HOME/Sec6.jsx'
 import Footer from '../Components/Footer.jsx';
 import Sec1Cat from '../Common-Category/Sec1Cat.jsx'
+import Sec3Home from '../Common-HOME/Sec3.jsx'
 
 const CategoryPage = () => {
     return ( <>
         <Nav />
 <Sec1Cat/>
         <StaticPropsMarquee />
+      <Sec3Home/>
       <Sec2Home/>
       <Sec4Home/>
       <Sec5Home/>

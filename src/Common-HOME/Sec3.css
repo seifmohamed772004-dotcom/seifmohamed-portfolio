@@ -19,7 +19,7 @@
 .sec3-container {
     min-height: 100vh;
     background-color: #121212;
-    background: radial-gradient(circle at bottom center, #2e1d1d 0%, #121212 60%);
+    background: radial-gradient(circle at bottom center, #101010 0%, #121212 60%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +27,7 @@
     gap: 40px;
     
     font-family: sans-serif;
+    border-top: 1px solid #FF6A4E;
     border-bottom: 1px solid #FF6A4E;
     padding: 80px;
     box-sizing: border-box;
@@ -34,7 +35,6 @@
 
 .sec3-header {
     width: 100%;
-    margin-bottom: 40px;
     text-align: left;
 }
 
@@ -43,7 +43,7 @@
     color: #fefefe;
     font-weight: 400;
     font-family: Quicksand;
-    font-weight: 500;
+    font-weight: 400;
   line-height: 1;
     margin: 0;
 }
@@ -71,7 +71,7 @@
     border-radius: 30px;
     font-family: QuickSand;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     transition: background 0.3s ease;
