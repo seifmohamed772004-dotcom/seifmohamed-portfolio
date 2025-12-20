@@ -23,7 +23,7 @@ const nav = () => {
 
 <Link to="/all-projects" className='textdec'><Navtxt navtxt='Projects'/></Link>
 
-<Navtxt navtxt='About'/>
+<Link to="/about" className='textdec'><Navtxt navtxt='About'/></Link>
 
 <Navtxt navtxt='Blog'/>
 
