@@ -27,7 +27,7 @@ const nav = () => {
 
 <Link to="/blog" className='textdec'><Navtxt navtxt='Blog'/></Link>
 
-<Navtxt navtxt='FAQ'/>
+<Link to="/faq" className='textdec'><Navtxt navtxt='FAQ'/></Link>
     
 </section>
 

@@ -7,6 +7,7 @@ import TestAPI from './Pages/TestAPI.jsx';
 import AllProjects from './Pages/AllProjects.jsx'
 import About from './Pages/About.jsx'
 import Blog from './Pages/Blog.jsx'
+import FAQ from './Pages/FAQ.jsx';
 
 
 const Routing = () => {
@@ -18,6 +19,7 @@ const Routing = () => {
         <Route path='/category' element={<CategoryPage />} />
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/faq' element={<FAQ />} />
         <Route path='/individual' element={<Indiviual />} />
         <Route path='/testAPI' element={<TestAPI />} />
       </Routes>
