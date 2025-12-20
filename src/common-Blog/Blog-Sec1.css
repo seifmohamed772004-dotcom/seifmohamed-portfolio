@@ -6,7 +6,10 @@
   gap: 40px;
   width: 100%;
   min-height: 80vh;
-  background-color: #101010;
+  background-image: url('../Assets/blogbg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 220px 80px 80px 80px;
   box-sizing: border-box;
   margin: 0;
