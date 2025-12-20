@@ -1,0 +1,33 @@
+.time-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #2A2A2A;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1;
+}
+
+.time-card:last-child {
+  border-right: none;
+}
+
+.time-value {
+  display: flex;
+  font-family: 'QuickSand', sans-serif;
+  color: #FFF0ED;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.time-label {
+  display: flex;
+  font-family: 'QuickSand', sans-serif;
+  color: #FFF0ED;
+  opacity: 0.5;
+  font-size: 14px;
+}

@@ -1,0 +1,25 @@
+.software-tool {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1;
+}
+
+.tool-logo {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.tool-name {
+  display: flex;
+  font-family: 'QuickSand', sans-serif;
+  color: #FFF0ED;
+  font-size: 18px;
+  font-weight: 700;
+}
