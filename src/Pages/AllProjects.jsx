@@ -9,6 +9,7 @@ import projectImg2 from '../Assets/Graphic Design IMG 2.png';
 import projectImg3 from '../Assets/Graphic Design IMG 4.png';
 
 import NAV from '../Components/Nav'
+import Footer from '../Components/Footer'
 
 
 const AllProjects = () => {
@@ -73,8 +74,8 @@ const AllProjects = () => {
         ))}
       </div>
     </div>
+<Footer />
 
-    
     </section>
   );
 };
