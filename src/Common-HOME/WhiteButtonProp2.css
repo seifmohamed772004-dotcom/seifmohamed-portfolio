@@ -1,4 +1,4 @@
-.WhiteButton{width: 100%;
+.WhiteButton2{width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -13,7 +13,7 @@ padding: 12px 32px;
 transition: 0.05s ease-in-out;}
 
 
-.WhiteButton:active{width: 100%;
+.WhiteButton2:active{width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;

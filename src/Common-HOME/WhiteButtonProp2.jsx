@@ -3,7 +3,7 @@ import './WhiteButtonProp2.css';
 
 const WBP = (Props) => {
   return (
-    <button className='WhiteButton'>
+    <button className='WhiteButton2'>
       {Props.Btntitle}
     </button>
   );

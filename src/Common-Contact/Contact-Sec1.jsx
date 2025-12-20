@@ -4,8 +4,8 @@ import SocialLink from './SocialLink';
 
 import phoneIcon from '../Assets/phone.png';
 import beIcon from '../Assets/BehanceNavIcon.svg';
-import instaIcon from '../Assets/InstagramNavIcon.svg';
-import mailIcon from '../Assets/MailNavIcon.svg';
+import instaIcon from '../Assets/insta.png';
+import mailIcon from '../Assets/mail.png';
 import profileImg from '../Assets/profileimg.jpg';
 
 const ContactSec1 = () => {
