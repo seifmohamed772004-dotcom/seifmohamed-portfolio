@@ -8,6 +8,7 @@ import AllProjects from './Pages/AllProjects.jsx'
 import About from './Pages/About.jsx'
 import Blog from './Pages/Blog.jsx'
 import FAQ from './Pages/FAQ.jsx';
+import Contact from './Pages/Contact.jsx';
 
 
 const Routing = () => {
@@ -20,7 +21,9 @@ const Routing = () => {
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/faq' element={<FAQ />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='/individual' element={<Indiviual />} />
+
         <Route path='/testAPI' element={<TestAPI />} />
       </Routes>
    </BrowserRouter> );

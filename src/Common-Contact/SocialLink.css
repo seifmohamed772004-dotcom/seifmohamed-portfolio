@@ -1,0 +1,34 @@
+.social-link-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #FFF0ED;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  flex: 1;
+  box-sizing: border-box;
+  margin: 0;
+  transition: opacity 0.3s ease;
+}
+
+.social-link-card:hover {
+  opacity: 0.9;
+}
+
+.social-icon-img {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.social-label {
+  display: flex;
+  font-family: 'QuickSand', sans-serif;
+  color: #101010;
+  font-size: 16px;
+  font-weight: 700;
+}
