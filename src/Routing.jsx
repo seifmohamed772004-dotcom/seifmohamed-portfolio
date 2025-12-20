@@ -6,6 +6,7 @@ import Indiviual from './Pages/Individual.jsx';
 import TestAPI from './Pages/TestAPI.jsx';
 import AllProjects from './Pages/AllProjects.jsx'
 import About from './Pages/About.jsx'
+import Blog from './Pages/Blog.jsx'
 
 
 const Routing = () => {
@@ -16,6 +17,7 @@ const Routing = () => {
         <Route path='/all-projects' element={<AllProjects />} />
         <Route path='/category' element={<CategoryPage />} />
         <Route path='/about' element={<About />} />
+        <Route path='/blog' element={<Blog />} />
         <Route path='/individual' element={<Indiviual />} />
         <Route path='/testAPI' element={<TestAPI />} />
       </Routes>

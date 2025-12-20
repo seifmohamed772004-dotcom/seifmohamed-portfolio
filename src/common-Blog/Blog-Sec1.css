@@ -1,0 +1,103 @@
+.blog-hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  min-height: 80vh;
+  background-color: #101010;
+  padding: 220px 80px 80px 80px;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1;
+}
+
+/* Section 1 styling */
+.welcome-badge {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  align-items: center;
+  background-color: #FF6B4E; /* Matching the orange-coral color in the image */
+  padding: 12px 60px;
+  border-radius: 80px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.badge-text {
+  display: flex;
+  color: #FFF0ED;
+  font-family: 'QuickSand', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Section 2 styling */
+.hero-title {
+  display: flex;
+  color: #FFF0ED;
+  font-family: 'QuickSand', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Section 3 styling */
+.hero-description {
+  display: flex;
+  color: #FFF0ED;
+  opacity: 0.6;
+  font-family: 'QuickSand', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  max-width: 800px;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Section 4 styling */
+.hero-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 40%;
+  margin: 0;
+}
+
+/* Scroll indicator styling */
+.scroll-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.scroll-text {
+  display: flex;
+  color: #FFF0ED;
+  opacity: 0.4;
+  font-family: 'QuickSand', sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.scroll-line {
+  display: flex;
+  width: 1px;
+  height: 40px;
+  background-color: #FFF0ED;
+  opacity: 0.2;
+  box-sizing: border-box;
+}

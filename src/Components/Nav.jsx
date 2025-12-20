@@ -25,7 +25,7 @@ const nav = () => {
 
 <Link to="/about" className='textdec'><Navtxt navtxt='About'/></Link>
 
-<Navtxt navtxt='Blog'/>
+<Link to="/blog" className='textdec'><Navtxt navtxt='Blog'/></Link>
 
 <Navtxt navtxt='FAQ'/>
     
