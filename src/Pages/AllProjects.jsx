@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import './AllProjects.css';
-import FilterButton from './FilterButton';
-import ProjectCard from './ProjectCard';
+import FilterButton from '../Common-All-Projects/FilterButton';
+import ProjectCard from '../Common-All-Projects/ProjectCard';
 
-import searchIcon from './work/search.svg';
-import projectImg1 from './work/project1.jpg';
-import projectImg2 from './work/project2.jpg';
-import projectImg3 from './work/project3.jpg';
+import searchIcon from '../Assets/Searchicon.png';
+import projectImg1 from '../Assets/Graphic Design IMG 1.png';
+import projectImg2 from '../Assets/Graphic Design IMG 2.png';
+import projectImg3 from '../Assets/Graphic Design IMG 4.png';
+
+import NAV from '../Components/Nav'
+
 
 const AllProjects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
@@ -26,9 +29,11 @@ const AllProjects = () => {
   ];
 
   return (
+    <section className='All-Projects-Main'>
+    <NAV />
     <div className="all-projects-container">
       <div className="header-section">
-        <h1 className="main-title">All Pr<span className="stretch-glyph">o</span>jects</h1>
+        <h1 className="main-title">ALL PROJECTS</h1>
         <p className="sub-title">
           A curated collection of work spanning digital experiences, brand identity, and creative
           explorations across multiple disciplines.
@@ -68,6 +73,9 @@ const AllProjects = () => {
         ))}
       </div>
     </div>
+
+    
+    </section>
   );
 };
 

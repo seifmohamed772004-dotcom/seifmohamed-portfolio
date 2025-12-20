@@ -1,15 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.All-Projects-Main{width: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+background-image: url(../Assets/Sec1\ BG.png);
+background-repeat: no-repeat;
+background-position: center;
+
+box-sizing: border-box;
+background-size: cover;}
 
 .all-projects-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  min-height: 100vh;
-  background-color: #101010;
-  padding: 60px 40px;
   gap: 40px;
   align-items: center;
   box-sizing: border-box;
+  padding: 185px 80px 80px 80px;
   margin: 0;
   line-height: 1;
 }
@@ -25,11 +32,9 @@
 
 .main-title {
   display: flex;
-  font-family: 'StretchPro', sans-serif; 
+font-family: StretchPro;
   color: #FFF0ED;
   font-size: 64px;
-  font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 2px;
   box-sizing: border-box;
   margin: 0;
@@ -37,7 +42,6 @@
 }
 
 .stretch-glyph {
-    /* Assuming specific glyph logic or font feature */
     display: inline-flex;
 }
 
@@ -68,7 +72,7 @@
   align-items: center;
   background-color: #161616;
   border: 1px solid #2A2A2A;
-  border-radius: 8px;
+  border-radius:32px;
   padding: 16px 20px;
   gap: 12px;
   width: 600px;
@@ -119,4 +123,19 @@
   padding-top: 20px;
   box-sizing: border-box;
   margin: 0;
+}
+
+@font-face {
+  font-family: StretchPro;
+  src: url('../Assets/StretchPro.otf');
+}
+
+@font-face {
+  font-family:QuickSand ;
+  src: url('../Assets/Quicksand-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Rensafi;
+  src: url('../Assets/Renasfi-Demo-BF68d8f58fbb6e6.otf');
 }
