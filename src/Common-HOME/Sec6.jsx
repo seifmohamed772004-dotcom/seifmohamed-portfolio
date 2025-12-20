@@ -22,7 +22,7 @@ const Sec6Home = () => {
       </div>
       <div className="sec6-row">
        <Link to="/category" className='textdec'><CategoryBox title="GRAPHIC DESIGN" projects="4 Projects" widthClass="width-medium" /></Link>
-        <CategoryBox title="XR DESIGN" projects="4 Projects" widthClass="width-medium" />
+       <CategoryBox title="XR DESIGN" projects="4 Projects" widthClass="width-medium" />
       </div>
     </div>
 

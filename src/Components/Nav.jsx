@@ -21,7 +21,7 @@ const nav = () => {
 
 <section className='NavItems'>
 
-<Navtxt navtxt='Projects'/>
+<Link to="/all-projects" className='textdec'><Navtxt navtxt='Projects'/></Link>
 
 <Navtxt navtxt='About'/>
 
