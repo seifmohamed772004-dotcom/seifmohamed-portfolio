@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family:QuickSand;
+    src: url(../Assets/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:StretchPro;
+    src: url(../Assets/StretchPro.otf);
+}
+
+@font-face {
+    font-family:Rensafi;
+    src: url(../Assets/Renasfi-Demo-BF68d8f58fbb6e6.otf);
+}
+
+
+
+.sec3-container {
+    min-height: 100vh;
+    background-color: #121212;
+    background: radial-gradient(circle at bottom center, #101010 0%, #121212 60%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+    font-family: sans-serif;
+    border-top: 1px solid #FF6A4E;
+    border-bottom: 1px solid #FF6A4E;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.sec3-header {
+    width: 100%;
+    text-align: left;
+}
+
+.sec3-title {
+  font-size: 64px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: Quicksand;
+    font-weight: 400;
+  line-height: 1;
+    margin: 0;
+}
+
+.sec3-title-thin {
+    font-weight: 300;
+    color: #ccc;
+    font-size: 1.5rem;
+}
+
+
+.sec3-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.sec3-view-all-btn {
+    background-color: #fff0eb;
+    color: #000;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-family: QuickSand;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: background 0.3s ease;
+}
+
+.sec3-view-all-btn:hover {
+    background-color: #e0d0cb;
+}

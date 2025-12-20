@@ -28,6 +28,8 @@ background-color: #101010;}
 display: flex;
 justify-content: center;
 flex-direction: column;
+background-image: url(../Assets/FooterBG.jpg);
+background-blend-mode: overlay;
 height: 100%;
 align-items: center;
 padding: 80px;
