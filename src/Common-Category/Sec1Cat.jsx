@@ -49,13 +49,13 @@ const Sec1Cat = () => {
 <section className='Sec1MainRight'>
 
 <section className='Sec1MainRightleft'>
-<Link to="/individual" className='textdec'><img className='categoryimg' src={GD1}/></Link>
-<img className='categoryimg' src={GD2}/>
+<Link to="/individual" className='textdec2'><img className='categoryimg' src={GD1} alt=''/></Link>
+<img className='categoryimg' src={GD2} alt=''/>
 </section>
 
 <section className='Sec1MainRightright'>
-<img className='categoryimg' src={GD3}/>
-<img className='categoryimg' src={GD4}/>
+<img className='categoryimg' src={GD3} alt=''/>
+<img className='categoryimg' src={GD4} alt=''/>
 </section>
 
 </section>
