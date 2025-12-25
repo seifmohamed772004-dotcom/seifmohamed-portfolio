@@ -1,35 +1,59 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Sec4.css'
 import TopTitleComp from './TopTitleProps'
 import IllustratedIMG from '../Assets/sec3image.png'
+import { supabase } from '../Pages/Supabase';
+
 const Sec4Home = () => {
-    return ( <>
-    <section className='Sec4Main'>
-    <TopTitleComp title='WHO' titlespan='am I?'/>
 
+    const [loading, setLoading] = useState(true);
 
+    const [rowContent, setRowContent] = useState(null);
 
-<section className='Sec4Bottom'>
+    useEffect(() => {
+        async function getAPI() {
+    
+   
+            const res = await supabase
+                .from("Titles")
+                .select("*")
+                .eq("id", 4)
+                .single();
+            
+            console.log("Supabase Response:", res); 
+            
+            if (res.data) {
+                setRowContent(res.data);
+            }
 
-<section className='Sec4BottomLeft'>
-    <h1 className='Sec4BottomLeftTitle'>Need to elevate your End User’s Experience?</h1>
-    <p className='Sec4BottomLeftdesc'>Hi, I am Seif, a 21-Year-Old UX Designer. After four years through this amazing field, I gradually started sensing the user’s needs. UX Designing became my passion, boosting the User Experience became my goal.</p>
-</section>
+            setLoading(false);
+        }
+        getAPI();
+    }, []);
 
+    if (loading) return <p>Loading...</p>;
 
+    return (
+        <>
+            <section className='Sec4Main'>
+                <TopTitleComp title='WHO' titlespan='am I?' />
 
+                <section className='Sec4Bottom'>
+                    <section className='Sec4BottomLeft'>
+                        <h1 className='Sec4BottomLeftTitle'>
+                            {rowContent?.["enTitle"]}
+                        </h1>
 
-<img src={IllustratedIMG} alt=''/>
+                        <p className='Sec4BottomLeftdesc'>
+                            {rowContent?.["enSub"] }
+                        </p>
+                    </section>
 
-
-
-
-</section>
-
-
-    </section>
-
-    </> );
+                    <img src={IllustratedIMG} alt='' />
+                </section>
+            </section>
+        </>
+    );
 }
- 
+
 export default Sec4Home;
